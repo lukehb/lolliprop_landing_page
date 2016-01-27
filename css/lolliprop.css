@@ -2,8 +2,17 @@
 @font-face { font-family: "CooperStd"; src: url("../fonts/CooperBlackStd.otf"); } 
 @font-face { font-family: "CooperStd"; src: url("../fonts/CooperBlackStd-Italic.otf"); font-style: italic;}
 
-a,a:hover{
-	color:white;
+a{
+	color: #f2d4a2;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #ECC279;
+}
+
+a:visited{
+	color: #ECC279;
 }
 
 html{
@@ -32,6 +41,10 @@ body {
 	border-color: #f2d4a2;
 }
 
+.vanillaText{
+	color: 	#f2d4a2;
+}
+
 .white{
 	background-color: white;
 }
@@ -55,7 +68,7 @@ body {
 	position: relative;
 	z-index: 2;
 	width: 100%;
-	height: 37px;
+	height: 36px;
 	background-image: url("../images/banner_flag.png");
 	background-repeat: repeat-x;
 }
@@ -114,7 +127,8 @@ body {
 
 
 p.answer{
-    max-width: 35%;
+	text-align: center;
+    width: 35%;
     color: #f2d4a2;
     font-size: 2vw;
     position: absolute;
@@ -210,6 +224,20 @@ p.answer{
 	max-width: 100%;
 }
 
+.titleContainer{
+	width: 100%;
+}
+
+.titleImage{
+	width: 100%;
+	height: auto;
+}
+
+.authors{
+	font-size: 2vw;
+	text-align: center;
+}
+
 .pattern{
 	width: 100%;
 	height: 100%;
@@ -223,8 +251,6 @@ p.answer{
     bottom: 0;
 	width: 100%;
 	height: 100%;
-	-webkit-clip-path: polygon(50% 73%, 100% 73%, 100% 100%, 0 100%, 0 20%);
-	clip-path: polygon(50% 73%, 100% 73%, 100% 100%, 0 100%, 0 20%);
 }
 
 .L0{
@@ -252,7 +278,7 @@ p.answer{
 
 h1.ribbon {
 	position: relative;
-	font-size: 5vmin;
+	font-size: 3.5vmin;
 	margin: 0.3em -1em;
 	padding: 2px 0;
 	text-align: center;
