@@ -322,6 +322,7 @@ h1.ribbon:after {
 	box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
 }
 h1.ribbon > strong {
+	line-height: 1;
 	vertical-align: middle;
 	display: inherit;
 	margin: 0;
