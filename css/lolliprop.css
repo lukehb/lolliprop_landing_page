@@ -1,6 +1,5 @@
-
-@font-face { font-family: "CooperStd"; src: url("../fonts/CooperBlackStd.otf"); } 
-@font-face { font-family: "CooperStd"; src: url("../fonts/CooperBlackStd-Italic.otf"); font-style: italic;}
+@font-face { font-family: 'CooperBlackStd'; src: url('../fonts/CooperBlackStd.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperBlackStd.otf') format('opentype'), url('../fonts/CooperBlackStd.woff') format('woff'), url('../fonts/CooperBlackStd.ttf') format('truetype'), url('../fonts/CooperBlackStd.svg#CooperBlackStd') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'CooperBlackStd-Italic'; src: url('../fonts/CooperBlackStd-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperBlackStd-Italic.otf') format('opentype'), url('../fonts/CooperBlackStd-Italic.woff') format('woff'), url('../fonts/CooperBlackStd-Italic.ttf') format('truetype'), url('../fonts/CooperBlackStd-Italic.svg#CooperBlackStd-Italic') format('svg'); font-weight: normal; font-style: italic; }
 
 a{
 	color: #f2d4a2;
@@ -20,7 +19,7 @@ html{
 }
 
 body {
-	font-family: CooperStd, sans-serif;
+	font-family: CooperBlackStd, sans-serif;
 	background-color: #e88c9b;
 	line-height: 1.0;
 }
