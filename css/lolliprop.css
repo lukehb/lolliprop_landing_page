@@ -322,9 +322,10 @@ h1.ribbon:after {
 	box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
 }
 h1.ribbon > strong {
+	vertical-align: middle;
 	display: inherit;
 	margin: 0;
-	/**padding: 0.5em 1em;**/
+	padding: 0.5em 1em;
 	color: white;
 	text-shadow: rgba(0,0,0,0.5) 0 0.05em 0;
 	border-top: 1px dashed rgba(0, 0, 0, 0.2);
