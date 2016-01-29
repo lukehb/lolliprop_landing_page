@@ -137,7 +137,9 @@ p.answer{
 }
 
 .wafertop{
-	padding: 3vh 5vw;
+	padding-top: 3vh;
+	padding-right: 5vw;
+	padding-left: 5vw;
 	border-radius: 1em 1em 0em 0em;
 }
 
@@ -212,13 +214,6 @@ p.answer{
     border-color: #ff0000 #0000ff;
 }
 
-.logo{
-	min-width: 20px;
-	min-height: 20px;
-	height: auto;
-	max-width: 100%;
-}
-
 .titleContainer{
 	width: 100%;
 }
@@ -226,6 +221,18 @@ p.answer{
 .titleImage{
 	width: 100%;
 	height: auto;
+}
+
+.logoContainer{
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	float:right;
+}
+
+.logo{
+	max-width: 7vw;
+	height: auto;
+	float: right;
 }
 
 .authors{
